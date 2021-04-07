@@ -7,7 +7,7 @@ def index():
     return "Hello WOrld!"
 @app.route("/<string:name>")
 def hello(name):
-    return f"Hello, {name}!"
+    return f"<h1>Hello, {name}!</h1>"
 #@app.route("/david")
 #def david():
   #  return "Hello David!"
